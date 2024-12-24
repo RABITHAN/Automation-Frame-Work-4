@@ -19,6 +19,7 @@ public class TC_DWS_005_Test extends BaseClass{
 		Assert.assertEquals(driver.getTitle(),("Demo web shop Books");
 		
 		test.log(Status.PASS,"Books page is displayed");
+		test.log(Status.FAIL,"Books page is displayed");
 	}
 	
 	
